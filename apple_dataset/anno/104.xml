@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>104.jpg</filename>
+	<path>C:/Users/xdedc/Desktop/新建文件夹/images/104.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>259</width>
+		<height>194</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>apple</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>53</xmin>
+			<ymin>50</ymin>
+			<xmax>190</xmax>
+			<ymax>180</ymax>
+		</bndbox>
+	</object>
+</annotation>

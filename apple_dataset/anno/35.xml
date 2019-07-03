@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>35.jpg</filename>
+	<path>F:/个人学习归档整理/深度学习/tensorflow目标检测/YOLOv3/tensorflow-yolov3/apple_dataset/images/35.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1300</width>
+		<height>957</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>apple</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>612</xmin>
+			<ymin>373</ymin>
+			<xmax>1049</xmax>
+			<ymax>778</ymax>
+		</bndbox>
+	</object>
+</annotation>
