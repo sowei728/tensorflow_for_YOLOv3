@@ -50,11 +50,15 @@ windows 没有wget命令就直接找个浏览器把URL输进去就好了
 	
 	test.txt  	存放测试图片的标注信息（总图片的20%）
 
-
-
 文件内容：(以空格隔开)
 
 	图片路径 x1min y1min x1max y1max cls1_id x2min y2min x2max y2max cls2_id	........
+
+运行脚本即可：
+
+```
+python scripts/load_xml_into_txt.py
+```
 
 
 
