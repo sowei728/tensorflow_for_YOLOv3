@@ -6,17 +6,27 @@
 
 环境：	win7 + anaconda + python3.6 ( 建议用anaconda，方便一些)
 
+下载代码之前，请先装好环境和相关依赖。
+
+```
+pip install -r docs/requirements.txt
+```
+
 
 
 ## 1.github下载YOLOv3的tensorflow实现代码。
 
+``` sda 
 git clone git@github.com:sowei728/tensorflow_for_YOLOv3.git
+```
 
 
 
 ## 2.下载YOLOv3的初始权值放到checkpoint文件夹中。
 
+```
 wget https://pjreddie.com/media/files/yolov3.weights
+```
 
 windows 没有wget命令就直接找个浏览器把URL输进去就好了
 
@@ -34,17 +44,17 @@ windows 没有wget命令就直接找个浏览器把URL输进去就好了
 
 自己新建3个txt文件：
 
-	**labels.txt**  	存放所有图片的标注信息
-
-	**train.txt**  	存放训练图片的标注信息（总图片的80%）
-
-	**test.txt**  	存放测试图片的标注信息（总图片的20%）
+	labels.txt  	存放所有图片的标注信息
+	
+	train.txt  	存放训练图片的标注信息（总图片的80%）
+	
+	test.txt  	存放测试图片的标注信息（总图片的20%）
 
 
 
 文件内容：(以空格隔开)
 
-	图片路径	 x1min y1min x1max y1max cls1_id x2min y2min x2max y2max cls2_id	........
+	图片路径 x1min y1min x1max y1max cls1_id x2min y2min x2max y2max cls2_id	........
 
 
 
